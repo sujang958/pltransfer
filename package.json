@@ -19,5 +19,8 @@
 	},
 	"packageManager": "bun@1.1.33",
 	"workspaces": ["apps/*", "packages/*"],
-	"trustedDependencies": ["@biomejs/biome"]
+	"trustedDependencies": ["@biomejs/biome"],
+	"dependencies": {
+		"query-string": "^9.1.1"
+	}
 }
